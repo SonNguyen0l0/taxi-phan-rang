@@ -1,162 +1,126 @@
+
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <title>Taxi Phan Rang Giá Rẻ | Gọi Taxi 24/7 – Xe 4, 7, 16 Chỗ</title>
+<meta charset="UTF-8">
+<title>Sơn Taxi | Taxi Giá Rẻ 24/7 – Gọi 0825 779 413</title>
 
-    <!-- SEO Meta -->
-    <meta name="description" content="Taxi Phan Rang giá rẻ – phục vụ 24/7, xe 4 chỗ, 7 chỗ, 16 chỗ, đưa đón sân bay, đi tỉnh an toàn, nhanh chóng. Gọi taxi ngay!">
-    <meta name="keywords" content="taxi phan rang, taxi giá rẻ phan rang, taxi sân bay, taxi 7 chỗ, taxi 16 chỗ">
-    <meta name="robots" content="index, follow">
-    <meta name="author" content="Taxi Phan Rang">
+<meta name="description" content="Sơn Taxi – Taxi giá rẻ 24/7, xe 4 chỗ, 7 chỗ, 16 chỗ, đưa đón sân bay, đi tỉnh an toàn. Gọi ngay 0825 779 413.">
+<meta name="keywords" content="sơn taxi, taxi giá rẻ, taxi 24/7, taxi 7 chỗ, taxi 16 chỗ, taxi sân bay">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Sơn Taxi">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Open Graph -->
+<meta property="og:title" content="Sơn Taxi – Taxi Giá Rẻ 24/7">
+<meta property="og:description" content="Gọi taxi nhanh – giá rẻ – xe đời mới | 0825 779 413">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="vi_VN">
 
-    <!-- Open Graph -->
-    <meta property="og:title" content="Taxi Phan Rang – Dịch Vụ Taxi 24/7">
-    <meta property="og:description" content="Dịch vụ taxi Phan Rang uy tín, giá rẻ, xe đời mới.">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="vi_VN">
+<style>
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#333;line-height:1.6}
+header{background:#ffc107;text-align:center;padding:15px}
+header img{max-width:120px}
+nav a{margin:0 10px;color:#000;text-decoration:none;font-weight:bold}
+.hero{
+background:url('banner-taxi.jpg') center/cover no-repeat;
+color:#fff;text-align:center;padding:80px 15px
+}
+.hero h1{font-size:32px;margin-bottom:10px}
+.hero a{background:#ffc107;color:#000;padding:12px 25px;border-radius:6px;text-decoration:none;font-weight:bold}
+section{padding:30px 15px;max-width:1100px;margin:auto}
+h2{color:#e6a700}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.box{border:1px solid #ddd;border-radius:8px;padding:20px}
+.call{background:#ffc107;text-align:center;padding:25px;font-size:20px;font-weight:bold}
+.call a{display:inline-block;background:#000;color:#fff;padding:12px 25px;border-radius:6px;text-decoration:none;margin-top:10px}
+footer{background:#222;color:#fff;text-align:center;padding:15px;font-size:14px}
 
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+/* NÚT NỔI */
+.fab{
+position:fixed;right:15px;bottom:15px;display:flex;flex-direction:column;gap:10px;z-index:999
+}
+.fab a{
+padding:12px 16px;border-radius:50px;color:#fff;text-decoration:none;font-weight:bold;text-align:center
+}
+.fab .callbtn{background:#28a745}
+.fab .zalobtn{background:#0068ff}
+</style>
 
-    <!-- CSS -->
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.6;
-            color: #333;
-        }
-        header {
-            background: #f7b500;
-            padding: 20px;
-            text-align: center;
-            color: #000;
-        }
-        nav a {
-            margin: 0 10px;
-            color: #000;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        section {
-            padding: 30px 15px;
-            max-width: 1100px;
-            margin: auto;
-        }
-        h1, h2 {
-            color: #f7b500;
-        }
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
-        .box {
-            border: 1px solid #ddd;
-            padding: 20px;
-            border-radius: 8px;
-        }
-        .call {
-            background: #f7b500;
-            color: #000;
-            padding: 20px;
-            text-align: center;
-            font-size: 20px;
-            font-weight: bold;
-        }
-        footer {
-            background: #222;
-            color: #fff;
-            text-align: center;
-            padding: 15px;
-            font-size: 14px;
-        }
-        a.call-btn {
-            display: inline-block;
-            background: #000;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 6px;
-            text-decoration: none;
-            margin-top: 10px;
-        }
-    </style>
-
-    <!-- Schema LocalBusiness -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "TaxiService",
-      "name": "Taxi Phan Rang",
-      "telephone": "0825779413",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Phan Rang - Tháp Chàm",
-        "addressRegion": "Ninh Thuận",
-        "addressCountry": "VN"
-      },
-      "areaServed": "Ninh Thuận",
-      "openingHours": "Mo-Su 00:00-23:59",
-      "priceRange": "$"
-    }
-    </script>
+<!-- Schema -->
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"TaxiService",
+"name":"Sơn Taxi",
+"telephone":"0825779413",
+"areaServed":"Việt Nam",
+"openingHours":"Mo-Su 00:00-23:59",
+"priceRange":"$"
+}
+</script>
 </head>
 
 <body>
 
 <header>
-    <h1>Taxi Phan Rang Giá Rẻ</h1>
-    <p>Phục vụ 24/7 – An toàn – Nhanh chóng – Uy tín</p>
-    <nav>
-        <a href="#gioi-thieu">Giới thiệu</a>
-        <a href="#dich-vu">Dịch vụ</a>
-        <a href="#lien-he">Liên hệ</a>
-    </nav>
+<img src="logo-son-taxi.png" alt="Logo Sơn Taxi">
+<nav>
+<a href="#gioi-thieu">Giới thiệu</a>
+<a href="#dich-vu">Dịch vụ</a>
+<a href="#khu-vuc">Khu vực</a>
+<a href="#lien-he">Liên hệ</a>
+</nav>
 </header>
 
+<section class="hero">
+<h1>Sơn Taxi – Taxi Giá Rẻ 24/7</h1>
+<p>Xe đời mới – An toàn – Đúng giờ</p>
+<a href="tel:0825779413">📞 GỌI NGAY 0825 779 413</a>
+</section>
+
 <section id="gioi-thieu">
-    <h2>Giới thiệu dịch vụ Taxi Phan Rang</h2>
-    <p>
-        Taxi Phan Rang chuyên cung cấp dịch vụ taxi giá rẻ, xe đời mới,
-        phục vụ khách hàng 24/7 tại Phan Rang – Ninh Thuận.
-        Đội ngũ tài xế chuyên nghiệp, am hiểu địa phương.
-    </p>
+<h2>Giới thiệu Sơn Taxi</h2>
+<p>
+Sơn Taxi chuyên cung cấp dịch vụ taxi giá rẻ 24/7,
+phục vụ nhanh chóng, tài xế thân thiện, xe sạch sẽ,
+đáp ứng mọi nhu cầu đi lại của khách hàng.
+</p>
 </section>
 
 <section id="dich-vu">
-    <h2>Dịch vụ taxi của chúng tôi</h2>
-    <div class="services">
-        <div class="box">
-            <h3>Taxi 4 chỗ</h3>
-            <p>Phù hợp đi trong thành phố, giá rẻ, nhanh chóng.</p>
-        </div>
-        <div class="box">
-            <h3>Taxi 7 chỗ</h3>
-            <p>Phù hợp gia đình, nhóm bạn, hành lý nhiều.</p>
-        </div>
-        <div class="box">
-            <h3>Taxi 16 chỗ</h3>
-            <p>Xe du lịch, đi tour, đưa đón đoàn.</p>
-        </div>
-        <div class="box">
-            <h3>Đưa đón sân bay</h3>
-            <p>Đúng giờ – an toàn – không lo trễ chuyến.</p>
-        </div>
-    </div>
+<h2>Dịch vụ taxi</h2>
+<div class="services">
+<div class="box"><h3>🚕 Taxi 4 chỗ</h3><p>Đi nội thành, đón nhanh, giá rẻ.</p></div>
+<div class="box"><h3>🚖 Taxi 7 chỗ</h3><p>Gia đình, nhóm bạn, nhiều hành lý.</p></div>
+<div class="box"><h3>🚌 Taxi 16 chỗ</h3><p>Đưa đón đoàn, tour, du lịch.</p></div>
+<div class="box"><h3>✈️ Đưa đón sân bay</h3><p>Đúng giờ, không lo trễ chuyến.</p></div>
+</div>
+</section>
+
+<section id="khu-vuc">
+<h2>Khu vực hoạt động</h2>
+<p>
+Sơn Taxi phục vụ đưa đón tận nơi tại các khu vực nội thành,
+khu dân cư, khu công nghiệp và các tuyến đi tỉnh lân cận.
+Nhận hợp đồng đưa đón dài hạn, tour, cưới hỏi.
+</p>
 </section>
 
 <section class="call" id="lien-he">
-    <p>📞 Gọi taxi ngay: <strong>082 577 9413</strong></p>
-    <a class="call-btn" href="tel:0825779413">GỌI NGAY</a>
+<p>📞 Hotline Sơn Taxi: <strong>0825 779 413</strong></p>
+<a href="tel:0825779413">GỌI TAXI NGAY</a>
 </section>
 
 <footer>
-    <p>© 2026 Taxi Phan Rang | Thiết kế website Son Taxi</p>
+<p>© 2026 Sơn Taxi. All rights reserved.</p>
 </footer>
+
+<!-- NÚT NỔI -->
+<div class="fab">
+<a class="callbtn" href="tel:0825779413">📞 GỌI</a>
+<a class="zalobtn" href="https://zalo.me/0825779413">💬 ZALO</a>
+</div>
 
 </body>
 </html>

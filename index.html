@@ -126,16 +126,28 @@ Nhận hợp đồng đưa đón dài hạn, tour, cưới hỏi.
 <script type="application/ld+json">
 {
 "@context":"https://schema.org",
-"@type":"FAQPage",
-"mainEntity":[{
-"@type":"Question",
-"name":"Taxi Phan Rang giá bao nhiêu?",
-"acceptedAnswer":{
-"@type":"Answer",
-"text":"Giá taxi tại Phan Rang tùy quãng đường, gọi Sơn Taxi 0825 779 413 để báo giá chính xác."
-}}]
+"@graph":[
+{
+"@type":"TaxiService",
+"name":"Sơn Taxi",
+"telephone":"0825779413",
+"areaServed":"Phan Rang - Ninh Thuận",
+"openingHours":"Mo-Su 00:00-23:59"
+},
+{
+"@type":"WebSite",
+"name":"Sơn Taxi",
+"url":"https://son-taxi.github.io/son-taxi/"
+},
+{
+"@type":"Organization",
+"name":"Sơn Taxi",
+"logo":"https://son-taxi.github.io/son-taxi/logo-son-taxi.png"
+}
+]
 }
 </script>
+
 
 </body>
 </html>

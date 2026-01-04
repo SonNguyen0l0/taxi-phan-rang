@@ -16,36 +16,131 @@
 <meta property="og:description" content="Gọi taxi nhanh – giá rẻ – xe đời mới | 0825 779 413">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="vi_VN">
-
+  
 <style>
-body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#333;line-height:1.6}
-header{background:#ffc107;text-align:center;padding:15px}
-header img{max-width:120px}
-nav a{margin:0 10px;color:#000;text-decoration:none;font-weight:bold}
-.hero{
-background:url('#') center/cover no-repeat;fetchpriority=high,
-color:#fff;text-align:center;padding:80px 15px
+/* BASE */
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#111; /* tăng tương phản chữ */
+  line-height:1.6;
+  background:#fff;
 }
-.hero h1{font-size:32px;margin-bottom:10px}
-.hero a{background:#ffc107;color:#000;padding:12px 25px;border-radius:6px;text-decoration:none;font-weight:bold}
-section{padding:30px 15px;max-width:1100px;margin:auto}
-h2{color:#e6a700}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.box{border:1px solid #ddd;border-radius:8px;padding:20px}
-.call{background:#ffc107;text-align:center;padding:25px;font-size:20px;font-weight:bold}
-.call a{display:inline-block;background:#000;color:#fff;padding:12px 25px;border-radius:6px;text-decoration:none;margin-top:10px}
-footer{background:#222;color:#fff;text-align:center;padding:15px;font-size:14px}
+
+/* HEADER */
+header{
+  background:#f2b705; /* vàng đậm hơn #ffc107 */
+  text-align:center;
+  padding:15px;
+}
+header img{max-width:120px}
+
+nav a{
+  margin:0 10px;
+  color:#111; /* chữ đen đậm */
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* HERO */
+.hero{
+  background:#f2b705; /* fallback nếu chưa có ảnh */
+  color:#111; /* KHÔNG dùng chữ trắng trên nền vàng */
+  text-align:center;
+  padding:80px 15px;
+}
+.hero h1{
+  font-size:32px;
+  margin-bottom:10px;
+  color:#111;
+}
+.hero p{
+  color:#222;
+}
+.hero a{
+  background:#111; /* nút đen */
+  color:#fff;      /* chữ trắng */
+  padding:12px 25px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+/* SECTION */
+section{
+  padding:30px 15px;
+  max-width:1100px;
+  margin:auto;
+}
+
+/* HEADING */
+h2{
+  color:#c58f00; /* vàng đậm hơn, PASS tương phản */
+}
+
+/* SERVICES */
+.services{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+.box{
+  border:1px solid #ccc;
+  border-radius:8px;
+  padding:20px;
+  background:#fff;
+}
+
+/* CALL TO ACTION */
+.call{
+  background:#f2b705;
+  text-align:center;
+  padding:25px;
+  font-size:20px;
+  font-weight:bold;
+  color:#111;
+}
+.call a{
+  display:inline-block;
+  background:#111;
+  color:#fff;
+  padding:12px 25px;
+  border-radius:6px;
+  text-decoration:none;
+  margin-top:10px;
+}
+
+/* FOOTER */
+footer{
+  background:#111;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+  font-size:14px;
+}
 
 /* NÚT NỔI */
 .fab{
-position:fixed;right:15px;bottom:15px;display:flex;flex-direction:column;gap:10px;z-index:999
+  position:fixed;
+  right:15px;
+  bottom:15px;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  z-index:999;
 }
 .fab a{
-padding:12px 16px;border-radius:50px;color:#fff;text-decoration:none;font-weight:bold;text-align:center
+  padding:12px 16px;
+  border-radius:50px;
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+  text-align:center;
 }
-.fab .callbtn{background:#28a745}
-.fab .zalobtn{background:#0068ff}
+.fab .callbtn{background:#198754} /* xanh đậm hơn */
+.fab .zalobtn{background:#0056d2} /* xanh Zalo đậm */
 </style>
+
 
 <!-- Schema -->
 <script type="application/ld+json">

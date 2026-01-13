@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://sonnguyen0l0.github.io/taxi-phan-rang/</loc>
+    <priority>1.0</priority>
   </url>
+
   <url>
-    <loc>https://sonnguyen0l0.github.io/taxi-phan-rang/#lien-he</loc>
+    <loc>https://sonnguyen0l0.github.io/taxi-phan-rang/taxi-san-bay-cam-ranh.html</loc>
+    <priority>0.8</priority>
   </url>
+
 </urlset>
